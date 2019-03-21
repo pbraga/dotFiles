@@ -1,0 +1,26 @@
+[user]
+	email = pedro.r.braga@gmail.com
+	name = Pedro Braga
+[color]
+	ui=auto
+	status=auto
+	branch=auto
+	interactive=auto
+	diff=auto
+[alias]
+	st = status
+	ls = log --oneline
+ 	ll = log --name-status
+	lpretty = log --decorate --graph --oneline
+	last = log -1 HEAD
+ 	co = checkout
+	bl = branch -vv
+  fa = fetch --all
+  visual = !gitk
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+  cmd = meld "$LOCAL" "$REMOTE"
+

@@ -1,5 +1,5 @@
 #
-# ~/.bashrc for pbraga
+# ~/.bashrc
 #
 
 # If not running interactively, don't do anything
@@ -11,8 +11,8 @@ PS1='[\u@\h \W]\$ '
 if [ -e ~/.bashrc.aliases ] ; then
    source ~/.bashrc.aliases
 fi
-# >>> Added by cnchi installer. edited by prb
-BROWSER=/usr/bin/firefox
+
+# prb stuff
 EDITOR=/usr/bin/vim
 
 set RANGER_LOAD_DEFAULT_RC = FALSE # stop loading of both default and my rc.conf
